@@ -1,0 +1,18 @@
+#summary Instalation instructions
+
+= Introduction =
+
+This document is intened to give information about instalation of the script.
+
+
+
+= Details =
+
+=== The script itself ===
+The script is intended to by self executable so you will have to modify its permissions
+{{{
+chmod +x vsftpd_denyhost.py
+}}}
+
+=== Execution ===
+Execution is left for the cron to do the job. Just setup your crontab to execute the script as many times per hour as you wish.
